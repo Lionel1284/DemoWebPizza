@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es-419">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrews Pizzas | La Mejor Pizza Artesanal</title>
+
+    <meta name="description" content="Disfruta de la auténtica pizza artesanal en Andrews Pizzas. Ingredientes frescos, masa madre y horno de leña. ¡Pide ahora por WhatsApp!" />
+    <meta property="og:title" content="Andrews Pizzas | La Mejor Pizza Artesanal" />
+    <meta property="og:description" content="Pizzas artesanales con ingredientes frescos y masa madre. ¡Pide a domicilio hoy mismo!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=1200" />
+    <meta property="og:image:alt" content="Deliciosa pizza artesanal" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="#" class="logo">
+          <i data-lucide="pizza"></i>
+          <span>Andrews Pizzas</span>
+        </a>
+        <button class="mobile-menu-btn" aria-label="Abrir menú">
+          <i data-lucide="menu"></i>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto" class="btn btn-primary">Pedir Ahora</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1>El Sabor Auténtico en tu Mesa</h1>
+        <p>Masa madre fermentada por 48 horas, ingredientes frescos y el amor de nuestros maestros pizzeros en Andrews Pizzas.</p>
+        <div class="hero-buttons">
+          <a href="https://wa.me/1234567890" target="_blank" class="btn btn-primary">
+            <i data-lucide="message-circle"></i> Pedir por WhatsApp
+          </a>
+          <a href="#menu" class="btn btn-outline">Ver Menú</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="container features-grid">
+        <div class="feature-card">
+          <div class="icon-box"><i data-lucide="chef-hat"></i></div>
+          <h3>100% Artesanal</h3>
+          <p>Nuestra masa se prepara diariamente a mano para asegurar la mejor textura.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon-box"><i data-lucide="leaf"></i></div>
+          <h3>Ingredientes Frescos</h3>
+          <p>Seleccionamos los vegetales y quesos más frescos del mercado local.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon-box"><i data-lucide="truck"></i></div>
+          <h3>Entrega Rápida</h3>
+          <p>Llevamos tu pizza caliente y crujiente hasta la puerta de tu casa.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Nuestro Menú</h2>
+          <p>Las favoritas de la casa, preparadas al momento.</p>
+        </div>
+
+        <div class="menu-grid">
+          <!-- Pizza 1 -->
+          <article class="menu-item">
+            <div class="menu-img">
+              <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=500" alt="Pizza Margarita">
+            </div>
+            <div class="menu-content">
+              <div class="menu-header">
+                <h3>Margarita Clásica</h3>
+                <span class="price">$10.990</span>
+              </div>
+              <p class="menu-desc">Salsa de tomate San Marzano, mozzarella fresca, albahaca y aceite de oliva extra virgen.</p>
+              <a href="https://wa.me/1234567890?text=Hola,%20quiero%20pedir%20una%20Pizza%20Margarita" target="_blank" class="btn btn-sm">
+                Pedir <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Pizza 2 -->
+          <article class="menu-item">
+            <div class="menu-img">
+              <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&q=80&w=500" alt="Pizza Pepperoni">
+            </div>
+            <div class="menu-content">
+              <div class="menu-header">
+                <h3>Pepperoni Lovers</h3>
+                <span class="price">$12.990</span>
+              </div>
+              <p class="menu-desc">Doble porción de pepperoni crujiente, queso mozzarella y nuestra salsa secreta.</p>
+              <a href="https://wa.me/1234567890?text=Hola,%20quiero%20pedir%20una%20Pizza%20Pepperoni" target="_blank" class="btn btn-sm">
+                Pedir <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Pizza 3 -->
+          <article class="menu-item">
+            <div class="menu-img">
+              <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=500" alt="Pizza Vegetariana">
+            </div>
+            <div class="menu-content">
+              <div class="menu-header">
+                <h3>Huerta Fresca</h3>
+                <span class="price">$12.490</span>
+              </div>
+              <p class="menu-desc">Pimientos, champiñones, cebolla morada, aceitunas negras y tomate cherry.</p>
+              <a href="https://wa.me/1234567890?text=Hola,%20quiero%20pedir%20una%20Pizza%20Vegetariana" target="_blank" class="btn btn-sm">
+                Pedir <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Pizza 4 -->
+          <article class="menu-item">
+            <div class="menu-img">
+              <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=500" alt="Pizza Especial">
+            </div>
+            <div class="menu-content">
+              <div class="menu-header">
+                <h3>Andrews Especial</h3>
+                <span class="price">$14.990</span>
+              </div>
+              <p class="menu-desc">Prosciutto, rúcula fresca, lascas de parmesano y reducción de balsámico.</p>
+              <a href="https://wa.me/1234567890?text=Hola,%20quiero%20pedir%20una%20Pizza%20Andrews%20Especial" target="_blank" class="btn btn-sm">
+                Pedir <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about-section">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1542834369-f10ebf06d3e0?auto=format&fit=crop&q=80&w=800" alt="Cocinando pizza">
+        </div>
+        <div class="about-content">
+          <h2>Pasión por la Pizza</h2>
+          <p>En Andrews Pizzas, creemos que una gran pizza comienza con una gran masa. Por eso, fermentamos nuestra masa madre durante 48 horas para lograr ese borde aireado y crujiente que nos caracteriza.</p>
+          <p>Desde 2015, hemos estado sirviendo a la comunidad con recetas tradicionales y un toque moderno.</p>
+          <div class="stats">
+            <div class="stat-item">
+              <span class="stat-number">10k+</span>
+              <span class="stat-label">Pizzas Servidas</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">4.9</span>
+              <span class="stat-label">Calificación</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section id="contacto" class="cta-section">
+      <div class="container cta-content">
+        <h2>¿Listo para ordenar?</h2>
+        <p>Llámanos o escríbenos por WhatsApp. ¡Estamos listos para atenderte!</p>
+        <div class="contact-methods">
+          <a href="tel:+1234567890" class="contact-box">
+            <i data-lucide="phone"></i>
+            <span>(555) 123-4567</span>
+          </a>
+          <a href="https://wa.me/1234567890" target="_blank" class="contact-box whatsapp">
+            <i data-lucide="message-circle"></i>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+        <p class="hours">Abierto de Martes a Domingo: 1:00 PM - 11:00 PM</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <div class="logo">
+            <i data-lucide="pizza"></i>
+            <span>Andrews Pizzas</span>
+          </div>
+          <p>La mejor pizza de la ciudad, hecha con amor.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Síguenos</h4>
+          <div class="social-icons">
+            <a href="#"><i data-lucide="instagram"></i></a>
+            <a href="#"><i data-lucide="facebook"></i></a>
+            <a href="#"><i data-lucide="twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Andrews Pizzas. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
